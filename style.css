@@ -1,0 +1,78 @@
+.header{
+    background-image: url(image/donation8.jpg);
+    margin: auto;
+
+    background-size: 1500px 500px ;
+    background-repeat: no-repeat;
+    
+    padding: 200px 25px 200px 25px;
+
+}
+.title-one{ 
+    
+    text-align: center;
+    color: bisque;
+    font-size: 40px;
+}
+.dec{ 
+    
+    text-align: center;
+    color: white;
+    padding:0px 100px 0px 100px;
+  
+}
+.link-button{  text-align: center;
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(to bottom right, red, yellow);
+    border-radius: 10px ;
+    margin: 50%;
+    color: white;
+
+}
+.donate{
+    text-align: center;
+
+
+}
+.dec2{
+    text-align: center;
+    padding:0px 100px;
+    font-size: smaller;
+}
+.tk {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 100px;
+   
+}
+.gap{
+    padding: 20px 30px;
+}
+.gap1{
+    padding: 20px 30px;
+    border: 3px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: orange;
+    background-color: #fed8b1;
+}
+.body-part{
+    
+}
+h4{ text-align: center;
+    border-bottom: 1px solid #bbb;
+    color:#bbb;
+    padding: 50px 0px 10px 0px;
+    margin: 0px 200px;
+}
+.link2{
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom right, red, yellow);
+    padding: 10px 40px;
+    margin-top: 40px;
+
+}
