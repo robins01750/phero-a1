@@ -6,7 +6,11 @@
     background-repeat: no-repeat;
     
     padding: 200px 25px 200px 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+.body-part{
+    font-family: Arial, Helvetica, sans-serif;
 }
 .title-one{ 
     
@@ -24,20 +28,22 @@
 .link-button{  text-align: center;
     text-decoration: none;
     padding: 10px 40px;
-    background-image: linear-gradient(to bottom right, red, yellow);
+    background-image: linear-gradient(to bottom right, red, orange);
     border-radius: 10px ;
     margin: 50%;
     color: white;
 
 }
 .donate{
+    justify-content: center;
+    
     text-align: center;
-
 
 }
 .dec2{
     text-align: center;
-    padding:0px 100px;
+    padding: 0px 100px;
+    margin: 0px 100px;
     font-size: smaller;
 }
 .tk {
@@ -49,9 +55,11 @@
    
 }
 .gap{
+    margin-top: 30px;
     padding: 20px 30px;
 }
 .gap1{
+    margin-top: 30px;
     padding: 20px 30px;
     border: 3px;
     border-radius: 5px;
@@ -60,19 +68,64 @@
     background-color: #fed8b1;
 }
 .body-part{
-    
+    text-align: center;
+    justify-content: center;
 }
-h4{ text-align: center;
+.amount{ text-align: center;
     border-bottom: 1px solid #bbb;
     color:#bbb;
     padding: 50px 0px 10px 0px;
     margin: 0px 200px;
 }
 .link2{
-    text-align: center;
+    
     text-decoration: none;
-    background-image: linear-gradient(to bottom right, red, yellow);
+    background-image: linear-gradient(to bottom right, red, orange);
     padding: 10px 40px;
-    margin-top: 40px;
+    margin-top: 100px;
 
+}
+.d-kind{
+    display: flex;
+    margin: 20px 30px 10;
+}
+.box-d{
+    font-size: smaller;
+    padding: 10px;
+    
+}
+.box{
+    background-color: lightcyan;
+    margin: 7px;
+    padding: 20px 7px;
+    
+}
+.donate2{
+    display: flex;
+
+}
+.donate2_1{
+    margin: 10px;
+   padding: 20px;
+   text-align: left;
+   font-size: small;
+}
+
+.donate2_2{
+   margin: 10px;
+   padding: 20px;
+}
+
+.box2{
+    background-color: lightcyan;
+    margin:0px 200px;
+    padding: 20px 20px;
+}
+
+.footer{
+    margin-top: 20px;
+    padding :50px 0px;
+    background-color: black;
+    font-size: larger;
+    color: #bbb;
 }
