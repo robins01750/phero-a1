@@ -86,31 +86,49 @@
 
 }
 .d-kind{
+    
     display: flex;
-    margin: 20px 30px 10;
+    margin: 50px 30px 10px;
 }
 .box-d{
+    
     font-size: smaller;
     padding: 10px;
+    color: #4e4e4c;
+   
     
 }
 .box{
     background-color: lightcyan;
     margin: 7px;
     padding: 20px 7px;
+    text-align: left;
     
 }
 .donate2{
     display: flex;
+    
 
 }
+.donate2__1{
+    color: #4e4e4c;
+}
+
 .donate2_1{
     margin: 10px;
    padding: 20px;
    text-align: left;
    font-size: small;
 }
-
+.donate-q{
+    text-decoration: none;
+    background-image: linear-gradient(to bottom right, red, orange);
+    padding: 10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: white;
+    border-radius: 5px;
+}
 .donate2_2{
    margin: 10px;
    padding: 20px;
